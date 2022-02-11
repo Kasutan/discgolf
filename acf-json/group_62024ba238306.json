@@ -1,0 +1,63 @@
+{
+    "key": "group_62024ba238306",
+    "title": "Horaires d'ouverture",
+    "fields": [
+        {
+            "key": "field_62024bb9133c4",
+            "label": "Plage horaire d'ouverture",
+            "name": "dg_plage_horaire",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "14h - 20h",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62024bf1133c5",
+            "label": "Jours de fermeture exceptionnelle",
+            "name": "dg_jours_fermeture",
+            "type": "textarea",
+            "instructions": "Chaque date au format jj\/mm\/aaaa, séparer par des virgules sans espaces",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "discgolf-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1644337664
+}
