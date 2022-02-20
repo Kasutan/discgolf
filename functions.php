@@ -45,9 +45,15 @@ add_editor_style( 'editor-styles.css' );
 require get_stylesheet_directory() . '/inc/colors.php';
 
 /**
-* Register color palette for Gutenberg editor.
+* Créer des shortcodes pour afficher les horaires d'ouverture du parcours.
 */
 include_once get_stylesheet_directory() . '/inc/horaires.php';
+
+/**
+* Créer des shortcodes pour afficher les inscriptions aux tournois du dimanche.
+*/
+include_once get_stylesheet_directory() . '/inc/inscriptions-tournoi.php';
+
 
 /**
 * ******** ACF custom blocks
